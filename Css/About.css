@@ -1,0 +1,186 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: darkcyan white;
+    scroll-behavior: smooth;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: darkcyan;
+    border-radius: 9px;
+  }
+  .navbar {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+  
+  .nav-link:hover {
+    color: darkcyan !important;
+  
+  }
+  
+  .nav-link a {
+    font-size: 14px;
+    font-weight: 700
+  }
+  
+  .dropdown-item:hover {
+    color: darkcyan !important;
+  
+  }
+  
+  .dropdown-item {
+    color: black !important;
+    background-color: white !important;
+    font-weight: 500 !important;
+  }
+  
+  .navbar {
+    height: auto;
+  
+  }
+  
+  .navbar-brand img {
+    height: 80px;
+    width: 60px;
+  }
+  
+  /*----------------------------------navbar end-------------------------------------------*/
+  
+  /*-------------------------------footer start--------------------------------------------*/
+  footer {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  footer img {
+    height: 100px;
+    width: fit-content;
+  }
+  
+  .list-unstyled a:hover {
+    color: darkcyan !important;
+  
+  }
+  /*------------------------------------------footer end---------------------------------*/
+
+  /*----------------------------banner-section------------------------------------------*/
+.image-background {
+  background: url(../Assets/AboutImages/TeamBanner.jpeg) center/cover no-repeat;
+  height: 400px;
+  width: 100%;
+}
+/*--------------------------------------banner-section-end----------------------------*/
+  section header{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: darkcyan;
+  }
+  .content p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 85px 880px 0px 40px !important;
+    text-align: justify;
+    color: white;
+  
+  }
+  .grid-container {
+    display: grid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  
+  /* Card styles */
+  .Card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 10px;
+      padding: 20px;
+      background-color: #fff;
+      width: 300px; /* Fixed width */
+      height: 550px; /* Fixed height */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center; /* Center text and icons */
+      overflow: hidden; /* Hide overflowing content */
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+      background-color: white;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  }
+  
+  /* Image styling */
+  .item img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  /* Card text styling */
+  .card-text {
+    margin-bottom: 15px; /* Space between text and icons */
+  }
+  
+  /* Icon container styles */
+  .icon {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+   
+  }
+  
+  /* Icon styles */
+  .icon i {
+    font-size: 24px; /* Adjust size as needed */
+    color: #333; /* Default color */
+    opacity: 0; /* Hidden initially */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    color: white;
+  }
+  
+  /* Hover effect for icons */
+  .icon .fa-facebook {
+    opacity: 1; /* Full opacity on card hover */
+    color: Blue;
+  }
+  .icon .fa-twitter {
+    opacity: 1; /* Full opacity on card hover */
+    color: cyan;
+  }
+  .icon .fa-whatsapp {
+    opacity: 1; /* Full opacity on card hover */
+    color: green;
+  }
+  .icon .fa-skype {
+    opacity: 1; /* Full opacity on card hover */
+    color: rgb(0, 0, 255);
+  }

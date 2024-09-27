@@ -1,0 +1,186 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    color: #333;
+}
+.navbar {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+  
+  .nav-link:hover {
+    color: darkcyan !important;
+  
+  }
+  
+  .nav-link a {
+    font-size: 14px;
+    font-weight: 700
+  }
+  
+  .dropdown-item:hover {
+    color: darkcyan !important;
+  
+  }
+  
+  .dropdown-item {
+    color: black !important;
+    background-color: white !important;
+    font-weight: 500 !important;
+  }
+  
+  .navbar {
+    height: auto;
+  
+  }
+  
+  .navbar-brand img {
+    height: 80px;
+    width: 60px;
+  }
+  
+  /*----------------------------------navbar end-------------------------------------------*/
+  
+  /*-------------------------------footer start--------------------------------------------*/
+  footer {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  footer img {
+    height: 100px;
+    width: fit-content;
+  }
+  
+  .list-unstyled a:hover {
+    color: darkcyan !important;
+  
+  }
+  /*------------------------------------------footer end---------------------------------*/
+.hero {
+    background: url('https://images.pexels.com/photos/51326/fountain-pen-text-leave-white-51326.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center;
+    background-size: cover;
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    color: #f0f0f0;
+    font-family: 'Great Vibes', cursive;
+}
+
+.posts {
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+
+.posts article {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.posts img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.posts h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+.posts .date {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.posts p {
+    line-height: 1.6;
+}
+
+.posts a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.posts a:hover {
+    text-decoration: underline;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    flex: 1;
+    border-radius: 8px;
+    width: 400px;
+    height: auto;
+}
+
+.about {
+    padding: 50px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+.contact {
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form input, 
+.contact form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.contact form button:hover {
+    background: #0056b3;
+}

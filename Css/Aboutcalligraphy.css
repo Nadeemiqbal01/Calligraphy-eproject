@@ -1,0 +1,130 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+  
+  .nav-link:hover {
+    color: darkcyan !important;
+  
+  }
+  
+  .nav-link a {
+    font-size: 14px;
+    font-weight: 700
+  }
+  
+  .dropdown-item:hover {
+    color: darkcyan !important;
+  
+  }
+  
+  .dropdown-item {
+    color: black !important;
+    background-color: white !important;
+    font-weight: 500 !important;
+  }
+  
+  .navbar {
+    height: auto;
+  
+  }
+  
+  .navbar-brand img {
+    height: 80px;
+    width: 60px;
+  }
+  
+  /*----------------------------------navbar end-------------------------------------------*/
+  
+  /*-------------------------------footer start--------------------------------------------*/
+  footer {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  footer img {
+    height: 100px;
+    width: fit-content;
+  }
+  
+  .list-unstyled a:hover {
+    color: darkcyan !important;
+  
+  }
+  /*------------------------------------------footer end---------------------------------*/
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header.section {
+    background-color: darkcyan;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Gallery section styling */
+.gallery {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.style-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 250px;
+    max-width: 30%;
+    text-align: center;
+}
+
+.style-card img {
+    width: 550px;
+    height: 310px;
+    display: block;
+}
+
+.description {
+    padding: 1rem;
+}
+
+.description h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.description p {
+    font-size: 1rem;
+    color: #666;
+}

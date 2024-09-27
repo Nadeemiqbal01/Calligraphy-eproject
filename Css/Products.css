@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*------------------------------navbar-start------------------------------------------*/
+.navbar {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: darkcyan !important;
+
+}
+
+.nav-link a {
+  font-size: 14px;
+  font-weight: 700
+}
+
+.dropdown-item:hover {
+  color: darkcyan !important;
+
+}
+
+.dropdown-item {
+  color: black !important;
+  background-color: white !important;
+  font-weight: 500 !important;
+}
+
+.navbar {
+  height: auto;
+
+}
+
+.navbar-brand img {
+  height: 80px;
+  width: 60px;
+}
+
+/*--------------------------------navbar-end-----------------------------------------*/
+
+/*-------------------------------footer-start-----------------------------------------*/
+footer {
+  font-family: 'Poppins', sans-serif;
+}
+
+footer img {
+  height: 100px;
+  width: fit-content;
+}
+
+.list-unstyled a:hover {
+  color: darkcyan !important;
+
+}
+
+
+/*--------------------------------------footer-end------------------------------------*/
+
+/*------------------------scroll up start---------------------------------------------*/
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  background-image: url('../Assets/ProductsImage/top.png');
+  width: 38px;
+  height: 38px;
+}
+
+/*------------------------------------------scroll-up-end------------------------------*/
+/*----------------------------banner-section-----------------------------------------*/
+h1 {
+  font-family: 'Playfair Display', serif;
+
+}
+
+h1:hover {
+  color: darkcyan !important;
+}
+
+.img-background {
+  background: url(../Assets/ProductsImage/Product.webp) center/cover no-repeat;
+  height: 450px;
+  width: 100%;
+}
+
+.content p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 85px 880px 0px 40px !important;
+  text-align: justify;
+  color: white;
+
+}
+/*---------------------------banner-section-end---------------------------------------*/
+/*-------------------------------------------cards-section-----------------------------*/
+.position-relative:hover {
+  color: darkcyan !important;
+}
+
+
+
+.collection-img img {
+  width: 250px;
+  height: 250px;
+}
+
+.rating i {
+  color: rgb(219, 168, 13) !important;
+}
+
+.title h2:hover {
+  color: darkcyan !important;
+}
+.title h2{
+  font-family: 'Playfair Display', serif;
+}
+
+.text-center p{
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.text-center button{
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  font-weight: 300; 
+}
+/*------------------------------cards-section-end-------------------------------------*/
+/*---------------------------------scroll-bar-----------------------------------------*/
+body {
+  --sb-track-color: #ffffff;
+  --sb-thumb-color: darkcyan;
+  --sb-size: 12px;
+
+  scrollbar-color: var(--sb-thumb-color) 
+                   var(--sb-track-color);
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size) 
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 1px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 1px;
+  
+  }
+  /*-------------------------------scroll-bar-end-------------------------------------*/

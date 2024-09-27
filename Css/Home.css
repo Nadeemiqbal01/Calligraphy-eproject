@@ -1,0 +1,239 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+main {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: darkcyan white;
+    scroll-behavior: smooth;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: darkcyan;
+    border-radius: 9px;
+  }
+  .navbar {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+  
+  .nav-link:hover {
+    color: darkcyan !important;
+  
+  }
+  
+  .nav-link a {
+    font-size: 14px;
+    font-weight: 700
+  }
+  
+  .dropdown-item:hover {
+    color: darkcyan !important;
+  
+  }
+  
+  .dropdown-item {
+    color: black !important;
+    background-color: white !important;
+    font-weight: 500 !important;
+  }
+  
+  .navbar {
+    height: auto;
+  
+  }
+  
+  .navbar-brand img {
+    height: 80px;
+    width: 60px;
+  }
+  
+  /*----------------------------------navbar end-------------------------------------------*/
+  
+  /*-------------------------------footer start--------------------------------------------*/
+  footer {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  footer img {
+    height: 100px;
+    width: fit-content;
+  }
+  
+  .list-unstyled a:hover {
+    color: darkcyan !important;
+  
+  }
+  /*------------------------------------------footer end---------------------------------*/
+
+  
+.gallery .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.gallery .container .heading{
+    width: 50%;
+    padding-bottom: 50px;
+    margin-top: 40px;
+    color: black;
+    font-family: Algerian, sans-serif;
+}
+.gallery .container .heading h3{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid darkcyan;
+}
+.gallery .container .heading h3 span{
+    font-weight: 100;
+    color: #4a4a4a;
+}
+.gallery .container .box{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid darkcyan;
+}
+.dream {
+    overflow: hidden;
+    position: relative; 
+    margin: 0 auto;     
+    width: 32.5%;   
+    display: flex;
+    flex-direction: column;
+  }
+  .item img {
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 15px;
+    padding-bottom: 15px;
+    border: 2px solid darkcyan;
+    border: 1px solid darkcyan;
+  }
+  .item:hover img {
+    transform: scale(1.1); 
+    border: 0px;
+  } 
+  .image{
+    padding-bottom: 30px;
+  }
+  .item-1 img{
+    /* width: 200px; */
+    height: 245px;
+     border-bottom: 1px solid darkcyan;
+    /* object-fit: contain;  */
+  }
+  .item-2 img{
+    /* width: 200px; */
+    height: 270px;
+     border-bottom: 1px solid darkcyan;
+    /* object-fit: contain;  */
+  }
+  .item-3 img{
+    height: 207px;
+     border-bottom: 1px solid darkcyan;
+  }
+  .item-4 img{
+    height: 205px;
+     border-bottom: 1px solid darkcyan;
+  }
+  .mb-4 {
+    list-style-type: none; /* Remove default list styling */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center align items horizontally */
+    margin-top: 20px; /* Top margin for spacing */
+  }
+
+  /* Individual icon styling */
+  .mb-4 i {
+    margin: 0 10px; /* Margin between icons */
+    position: relative; /* Position for pseudo element */
+  }
+
+  /* Icon link styling */
+  .mb-4 i {
+    color: #696464; /* Default color of the icon */
+    text-decoration: none; /* Remove underline */
+    position: relative; /* Relative positioning */
+    padding-bottom: 5px; /* Padding for bottom border space */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+
+  /* Bottom border on hover */
+  .mb-4 i::after {
+    content: ''; /* Required for pseudo element */
+    position: absolute; /* Absolute positioning */
+    width: 20px; /* Full width */
+    height: 2px; /* Border thickness */
+    bottom: 0; /* Align at the bottom */
+    left: 0; /* Align at the left */
+    transition: width 0.3s ease; /* Smooth transition for border width */
+  }
+
+  /* Hover effect */
+  .mb-4 .fa-twitter:hover {
+    color: cyan; /* Change color on hover */
+    border-bottom: 2px solid darkcyan;
+    padding-bottom: 10px;
+  }
+  .mb-4 .fa-facebook-f:hover {
+    color: darkblue; /* Change color on hover */
+    border-bottom: 2px solid darkcyan;
+    padding-bottom: 10px;
+  }
+  .mb-4 .fa-instagram:hover {
+    color: orangered; /* Change color on hover */
+    border-bottom: 2px solid darkcyan;
+    padding-bottom: 10px;
+  }
+  .mb-4 .fa-google:hover {
+    color: red; /* Change color on hover */
+    border-bottom: 2px solid darkcyan;
+    padding-bottom: 10px;
+  }
+  .mb-4 .fa-linkedin:hover {
+    color: rgb(31, 103, 247); /* Change color on hover */
+    border-bottom: 2px solid darkcyan;
+    padding-bottom: 10px;
+  }
+  .mb-4 .fa-github:hover {
+    color: slategray; /* Change color on hover */
+    border-bottom: 2px solid darkcyan;
+    padding-bottom: 10px;
+
+  }
+
+.p-3{
+  background-color: darkcyan;
+}
+

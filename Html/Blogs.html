@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Blog</title>
+     <!-------------------------------------------------------custom css------------------------------------------------------------->
+  <link rel="stylesheet" href="../Css/Blogs.css">
+  <!-------------------------------------------------------custom css------------------------------------------------------------->
+
+  <!-------------------------------------------------------favicon link------------------------------------------------------------->
+  <link rel="shortcut icon" href="../Assets/logo final.jpg" type="image/x-icon">
+  <!-------------------------------------------------------favicon link------------------------------------------------------------->
+
+  <!-------------------------------------------------------bootstrap css link------------------------------------------------------------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-------------------------------------------------------bootstrap css link------------------------------------------------------------->
+
+  <!-------------------------------------------------------fontawesome link------------------------------------------------------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-------------------------------------------------------fontawesome link------------------------------------------------------------->
+
+
+  <!-------------------------------------------------------googlefont link------------------------------------------------------------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,800;1,900&family=Poppins:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <!-------------------------------------------------------googlefont link------------------------------------------------------------->
+
+  <!-------------------------------------------------------sweetalert------------------------------------------------------------->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="sweetalert2.all.min.js"></script>
+  <!-------------------------------------------------------sweetalert------------------------------------------------------------->
+
+
+</head>
+  <!-------------------------------------------------------Navbar---------------------------------------------------------------------->
+<header>
+  <nav class="navbar navbar-nav navbar-expand-lg navbar-light bg-white sticky-top ">
+      <div class="container-fluid">
+          <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0"
+              href="./index.html">
+              <img src="../Assets/logo final.jpg" alt="" class="d-inline-block">
+              StyleStrokes
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav mx-auto order-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link mx-2 text-uppercase active text-dark" href="./Home.html">Home</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                      <a class="nav-link mx-2 text-uppercase text-dark dropdown-toggle" href="#" role="button"
+                          data-bs-toggle="dropdown" aria-expanded="false">
+                          About
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./AboutCalligraphy.html">About Calligraphy</a></li>
+                          <li><a class="dropdown-item" href="./About.html">About Us</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link mx-2 text-uppercase text-dark dropdown-toggle" href="#" role="button"
+                          data-bs-toggle="dropdown" aria-expanded="false">
+                          Products
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./products.html">Calligraphies</a></li>
+                          <li><a class="dropdown-item" href="./Courses.html">Calligraphy accessories</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link mx-2 text-uppercase text-dark" href="./resourses.html">Resources</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link mx-2 text-uppercase text-dark" href="./Services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link mx-2 text-uppercase text-dark" href="./Blogs.html">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link mx-2 text-uppercase text-dark" href="./Contact.html">Contact Us</a>
+                  </li>
+              </ul>
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link mx-2 text-dark" href="./cart.html"><i class="fas fa-shopping-cart me-1"></i>
+                          Cart</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link mx-2 text-dark" href="./Regsiter.html"><i
+                              class="fas fa-user-circle me-1"></i>Register/SignIn</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+</header>
+
+<!-------------------------------------------------------Navbar---------------------------------------------------------------------->
+
+<body>
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to My Calligraphy Blog</h1>
+            <p>Art of Calligraphy, Design Inspiration, About Me</p>
+        </div>
+    </section>
+    
+    <section id="posts" class="posts">
+        <div class="container">
+            <article class="art-calligraphy">
+                <h2>Art of Calligraphy</h2>
+                <div class="gallery">
+                    <img src="https://images.pexels.com/photos/3758105/pexels-photo-3758105.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Calligraphy 1">
+                    <img src="https://images.pexels.com/photos/4348403/pexels-photo-4348403.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Calligraphy 2">
+                    <img src="https://images.pexels.com/photos/8716154/pexels-photo-8716154.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Calligraphy 3">
+                </div>
+                <p>Calligraphy is the graceful art of beautiful writing. Each stroke of the pen is a dance of fluid motion and elegance. In the art of calligraphy, form and function unite to create beauty. The calligrapher’s hand moves with intention and artistry. Letters are crafted with precision, each curve a testament to skill. The ancient tradition of calligraphy whispers stories through ink. Every flourish and loop is a reflection of the artist’s soul. Calligraphy transforms the written word into a visual masterpiece. From delicate swirls to bold strokes, calligraphy captures emotion.</p>
+                <a href="#">Read More</a>
+            </article>
+            
+            <article class="design-inspirations">
+                <h2>Design Inspirations</h2>
+                <div class="gallery">
+                    <img src="https://images.pexels.com/photos/3758105/pexels-photo-3758105.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Design Inspiration 1">
+                    <img src="https://images.pexels.com/photos/7256866/pexels-photo-7256866.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Design Inspiration 2">
+                    <img src="https://images.pexels.com/photos/6850600/pexels-photo-6850600.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Design Inspiration 3">
+                </div>
+                <p>Calligraphy transforms words into a dance of form and expression. The beauty of calligraphy lies in its intricate details and fluid curves. Inspiration for calligraphy often springs from ancient scripts and modern styles. Each stroke of the pen is a brushstroke of creativity and grace. Design in calligraphy merges tradition with personal artistic flair. The interplay of light and shadow in calligraphic forms adds depth and dimension. Color and texture in calligraphy enhance its visual impact and emotion.</p>
+                <a href="#">Read More</a>
+            </article>
+            
+            <!-- More posts here -->
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="https://images.pexels.com/photos/9478288/pexels-photo-9478288.jpeg?auto=compress&cs=tinysrgb&w=600" alt="About Me">
+            <p>Creative soul with a passion for beauty in every detail. Lover of words, art, and the elegance of the written form. Enthusiastic learner with a deep curiosity about the world. Dreamer with a vision to turn imagination into reality. Embracing every challenge as an opportunity to grow. Dedicated to spreading positivity and joy through my work. Believer in the power of kindness and genuine connections.</p>
+        </div>
+    </section>
+    <!-------------------------------------------------------footer---------------------------------------------------------------------->
+  <footer>
+    <div class="container-fluid mt-5">
+      <div class="row text-dark g-4">
+        <div class="col-md-6 col-lg-3 p-1">
+          <a class="text-uppercase text-decoration-none brand text-dark m-1" href="./index.html">
+            <img src="../Assets/logo final.jpg" alt="" class="d-inline-block">StyleStrokes</a>
+          <p class="text-dark m-3">Master the Art of Calligraphy and Elevate Your Handwriting with Elegant, Expertly-Crafted Lessons and Premium Supplies.
+          </p>
+        </div>
+
+        <div class="col-md-6 col-lg-3 p-1">
+          <h5 class="fw-light">Sitemap</h5>
+          <ul class="list-unstyled">
+            <li class="my-3">
+              <a href="./Home.html" class="text-dark text-decoration-none">
+                Home
+              </a>
+            </li>
+            <li class="my-3">
+              <a href="./Blogs.html" class="text-dark text-decoration-none">
+                Blogs
+              </a>
+            </li>
+            <li class="my-3">
+              <a href="./About.html" class="text-dark text-decoration-none">
+                About Us
+              </a>
+            </li>
+            <li class="my-3">
+              <a href="./contact.html" class="text-dark text-decoration-none">
+                Contact Us
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 col-lg-3 p-1">
+          <h5 class="fw-light">calligraphies</h5>
+          <ul class="list-unstyled">
+            <li class="my-3">
+              <a href="./products.html" class="text-dark text-decoration-none">
+               Arabic Calligraphy
+              </a>
+            </li>
+            <li class="my-3">
+              <a href="./products.html" class="text-dark text-decoration-none">
+                Western Calligraphy
+              </a>
+            </li>
+            <li class="my-3">
+              <a href="./products.html" class="text-dark text-decoration-none">
+                Oriental Calligraphy
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 col-lg-3 p-1">
+          <h5 class="fw-light"></h5>
+          <ul class="list-unstyled">
+            <li class="my-3">
+              <a href="./Services.html" class="text-dark text-decoration-none">
+                Calligraphy Courses
+              </a>
+            </li>
+            <li class="my-3">
+              <a href="./Courses.html" class="text-dark text-decoration-none">
+                Calligraphy Accessories
+              </a>
+            </li>
+          </ul>
+          <h5 class="fw-light mb-3">Follow Us</h5>
+          <div>
+            <ul class="list-unstyled d-flex">
+              <li>
+                <a href="https://www.facebook.com" target="_blank"
+                  class="text-dark text-decoration-none fs-4 me-4">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com" target="_blank"
+                  class="text-dark text-decoration-none fs-4 me-4">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com" target="_blank"
+                  class="text-dark text-decoration-none fs-4 me-4">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pinterest.com" target="_blank"
+                  class="text-dark text-decoration-none fs-4 me-4">
+                  <i class="fab fa-pinterest"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=" container-fluid text-center text-dark col-md-12 col-sm-12 col-lg-12"
+      style="background-color:darkcyan !important; ;">
+      <p style="margin-bottom: 0rem !important">&copy Copyright StyleStrokes2024</p>
+    </div>
+  </footer>
+  <!-------------------------------------------------------footer---------------------------------------------------------------------->
+</body>
+</html>
